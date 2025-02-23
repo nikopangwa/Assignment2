@@ -1,0 +1,12 @@
+[package]
+name = "Linear_Regresion_Model"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "0.16.0", features = ["wgpu","train"] }
+burn-ndarray = "0.16.0"
+rand = "0.9.0"
+rgb = "0.8.50"
+textplots = "0.8.6"
+
